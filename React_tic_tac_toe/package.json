@@ -2,7 +2,7 @@
   "name": "react_tic_tac_toe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://clarity-89.github.io/React_tic_tac_toe/",
+  "homepage": "https://ArgAnkit/TicTicToe.github.io.git",
   "dependencies": {
     "papercss": "^1.6.1",
     "react": "^16.9.0",
