@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+ul li::before{
+  content:''!important;
+}
+h2{
+  margin-top:0px;
+}
+
+#AI, #Friend{
+  border-radius: 40px;  
+  color: grey;
+  text-align: center;
+  padding: 10px;
+  margin-bottom:10px;
+  width: 50%;
+}
+
+#AI:active{
+  background-color: rgb(34, 83, 219);
+  color:white; 
+  border: solid grey!important;
+}
+
+#Friend:active{
+  background-color: rgb(34, 83, 219);
+  color:white;
+  border: solid grey;
+}
+
+#X:active{
+  background-color: rgb(34, 83, 219);
+  color:white; 
+  border: solid grey;
+}
+
+#O:active{
+  background-color: rgb(34, 83, 219);
+  color:white; 
+  border: solid grey;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+li{
+  list-style:none;
+}
+.outer{
+  background-color: orange;
+  width: 75px;
+  height: 77px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.inner{
+  background-color: white;
+  top: 30%;
+  left: 30%;
+  width: 38%;
+  height: 38%;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.outer-box{
+  background-color: orange;
+  width: 90px;
+  height: 110px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+.inner-box{
+  background-color: white;
+  top: 30%;
+  left: 30%;
+  width: 38%;
+  height: 38%;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.hPjRFS{
+  display: flex;
+  width: 290px!important;
+  justify-content: space-between;
+  -webkit-box-pack: justify;
+}
+#or{
+  margin:50px;
+}
+
+.header-image{
+  margin-left: 50%;
+    margin-top: -35%;
+    margin-bottom: 30px;
+}
+.header-x-image{
+  font-weight: 800;
+  font-size: 100px;
+  color: #06a2d4;
+  padding-left:45px;
+}
+.header-x-image-box{
+  font-weight: 800;
+  font-size: 100px;
+  color: #06a2d4;
+  font-family: sans-serif;
+}
+.header-x-image-board{
+  font-weight: 800;
+  font-size: 90px;
+  color: #06a2d4;
+  font-family: sans-serif;
+}
+.showFormPlayerInput input{
+  margin-bottom: 10px;
+}
+
+.matchPlayers{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px;
+}
+.rival_player{
+  margin-left:170px;;
+}
+
+ /* smartphones, Android phones, landscape iPhone */
+ @media (min-width:360px)  { 
+
+#or {
+  margin-right: 20px;
+  margin-top: 50px;
+  padding-left: 0px;
+  margin-left: 30px;
+}
+.hPjRFS{
+  display: flex;
+  width: 100px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+ }
+
+  /* smartphones, Android phones, landscape iPhone */
+  @media (min-width:320px)  { 
+#or{
+  margin-left:0px;
+margin-right:0px;
+}
+  }
