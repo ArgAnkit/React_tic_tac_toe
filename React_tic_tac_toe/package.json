@@ -2,7 +2,7 @@
   "name": "react_tic_tac_toe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ArgAnkit/TicTicToe.github.io/TicTicToe.github.io",
+  "homepage": "http://ArgAnkit/TicTicToe.github.io/React_tic_tac_toe",
   "dependencies": {
     "papercss": "^1.6.1",
     "react": "^16.9.0",
